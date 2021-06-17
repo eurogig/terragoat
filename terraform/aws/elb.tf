@@ -26,6 +26,17 @@ resource "aws_elb" "weblb" {
   connection_draining_timeout = 400
 
   tags = {
-    Name = "foobar-terraform-elb"
+    Name                 = "foobar-terraform-elb"
+    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_file             = "terraform/aws/elb.tf"
+    git_last_modified_at = "2020-06-16 14:46:24"
+    git_last_modified_by = "nimrodkor@gmail.com"
+    git_modifiers        = "nimrodkor"
+    git_org              = "eurogig"
+    git_repo             = "terragoat"
+    level                = "production"
+    pci-dss              = "true"
+    team                 = "platform"
+    yor_trace            = "9a28fb46-9b38-46c6-9dea-751bf1bead1c"
   }
 }
