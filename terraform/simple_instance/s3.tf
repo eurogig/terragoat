@@ -8,5 +8,6 @@ resource "aws_s3_bucket" "docking_bay" {
   tags = {
     Name                 = "Docking Bay"
     Environment          = "Dev"
+    Awesome              = "Us"    
   }
 }
